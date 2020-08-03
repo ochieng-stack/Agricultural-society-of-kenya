@@ -1,0 +1,43 @@
+*,*::before,*::after{
+    box-sizing:border-box
+}
+body{
+    padding:0;
+    margin:0;
+    font-family:poppins,sans-serif;
+    font-size:1.2rem
+}
+.brand-logo{
+    display:flex;
+    align-items: center;
+    font-size: x-large;
+    color:black;
+    text-decoration:none;
+    background-color: green;
+}
+background-image:url(https://images.app.goo.gl/4fp2Jyqj4KCuz3Hu7)
+.brand-logo-name{
+    margin-left:1rem;
+}
+.main-nav ul{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+.main-nav a{
+    background-color:green;
+    color:black;
+    text-decoration:none;
+}
+.main-nav a:hover {
+    color:green
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 40px;
+}
+.full-height-grow{
+    display:flex;
+    flex-direction:column;
+    }
