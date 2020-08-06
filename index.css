@@ -1,1 +1,13 @@
-
+.home-main-section{
+    align-items: stretch;
+    justify-content: space-between;
+}
+.home-main-section{
+    background-image:url(https://images.app.goo.gl/4fp2Jyqj4KCuz3Hu7);
+    flex-grow:1;
+    max-height:100px;
+    min-width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
